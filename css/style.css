@@ -1,0 +1,279 @@
+/* style.css */
+
+/* 전체.css */
+
+.container {
+    position: relative;
+    width: 1600px;
+    margin: 0 auto;
+    /* background: rgba(0,0,0,0.3); */
+}
+
+/* home css */
+
+#home {
+    background-color: #141414;
+    background-image: url(../img/backgrund_img.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+
+#home .main_h1 {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 180px;
+    padding-left: 5%;
+}
+
+
+#home #main_gnb {
+    /* border: 2px solid rgb(50, 250, 100); */
+    position: absolute;
+    top: 400px;
+    padding-left: 5%;
+}
+
+#home #main_gnb ul li a {
+    color: #fff;
+    font-family: "Cafe24Decoshadow";
+    font-size: 65px;
+}
+
+#home nav ul li {
+    margin-bottom: 35px;
+}
+
+#home #main_gnb nav li a {
+    position: relative;
+}
+
+#home #main_gnb nav li a:after {
+    content: '';
+    display: inline-block;
+    width: 0; height: 4px;
+    background: #ffffff;
+    transition: all .2s ease-out;
+    position: absolute; bottom: 0; left: 0;
+}
+#home #main_gnb nav li:hover a:after {
+    width: 100%;
+}
+
+/* 애니메이션 효과 */
+
+#home .container h1 a img {
+    animation-name: main_banner;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 0.3s;
+}
+
+@keyframes main_banner {
+    from { transform: scale(0.9); }
+    to {transform: scale(1.0); }
+
+}
+
+/* 햄버거 바 버튼 */
+
+.btn-toggle,
+.btn-close {
+    /* border: 2px solid red; */
+    z-index: 999;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    display: none;
+}
+
+/* nav */
+#nav {
+    position: fixed;
+    left: 0; top: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.3);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+#nav h1 {
+    float: left;
+    color: #fff;
+    font-size: 40px;
+    padding: 5px 5px 5px 15px;
+    font-family: 'Noto+Sans+KR';
+    font-weight: 700;
+}
+
+#nav .nav_01 {
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+#nav ul {
+    float: right; 
+    padding-right: 10px; 
+   
+}
+#nav ul li {
+    display: inline; 
+}
+#nav ul li a {
+    display: inline-block;
+    padding: 20px 15px; 
+    color: #fff;
+    font-family: 'Cafe24Decoshadow', 'Noto+Sans+KR'; 
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+/* sub-about me.css */
+
+#contents {
+    text-align: center;
+    color: #fff;
+}
+#contents > div:first-child {
+    height: 100vh; 
+    line-height: 100vh;
+}
+#contents > div h2 {
+    font-size: 90px; 
+    font-weight: 100; 
+    text-transform: uppercase;
+    font-family: 'Cafe24Decoshadow', 'Noto+Sans+KR';
+}
+
+#contents .section2 .profile_img01 img {
+    width: 300px;
+    box-shadow: 5px 5px 0px 0px rgba(255,255,255,0.9),
+    10px 10px 0px 0px rgba(255,255,255,0.6),
+    15px 15px 0px 0px rgba(255,255,255,0.4),
+    20px 20px 0px 0px rgba(255,255,255,0.2);
+    margin-bottom: 40px;
+}
+
+#contents .section2 .profile h3 {
+    font-family: 'Noto+Sans+KR';
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+
+
+}
+#contents .section2 .profile ul li {
+    font-family: 'Noto+Sans+KR';
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#contents .section3 .skill h3 {
+    font-family: 'Noto+Sans+KR';
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#contents .section3 .skill ul li {
+    margin-left: 20px;
+    font-family: 'Noto+Sans+KR';
+    font-size: 20px;
+    font-weight: 300;
+}
+#contents .section3 .skill ul .skill_img03 {
+    width: 23%;
+}
+
+#contents .section3 .skill ul li img {
+    width: 20%;
+}
+
+#contents .section4,
+#contents .section3 {
+    padding-top: 15%; 
+    padding-bottom: 15%;
+    overflow: hidden;
+
+}
+
+#contents .section4 .license h3 {
+    font-family: 'Noto+Sans+KR';
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#contents .section4 .license ul li {
+    margin-left: 20px;
+    font-family: 'Noto+Sans+KR';
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#contents .section5 h2 {
+    padding-top: 20%; 
+    padding-bottom: 20%;
+    
+}
+
+#contents .section6 h2 {
+    line-height: 100vh;
+}
+
+/* section */
+.section1 {
+    background:radial-gradient(ellipse farthest-corner at center bottom, #69d2fb 0%, #20438E 100%
+    ); }
+.section2 {
+    padding: 8%;
+    background:radial-gradient(ellipse farthest-corner at center bottom, #33ecc4, #4f85d6
+    );}
+.section3 {
+    padding: 8%;
+    background:radial-gradient(ellipse farthest-corner at center top, #6CEBCF 0%, #38a7aa 100% 
+    );}
+.section4 {
+    padding: 8%;
+    background:radial-gradient(ellipse farthest-corner at center top, #cbf49a, #1ea623
+    );}
+.section5 {
+    background:radial-gradient(ellipse farthest-corner at center top, #a5ee4c, #ecfc16
+    );}
+.section6 {
+    background:radial-gradient(ellipse farthest-corner at center top, #f39264 0%, #f2606f 100%
+    );}
+.section7 {
+    background:radial-gradient(ellipse farthest-corner at center top, #f599d9, #8109f1ce
+    );}
+.section8 {
+    padding: 15%;
+    background:radial-gradient(ellipse farthest-corner at center top, #ba5bfa 0%, #f2606f 100%
+    );}
+
+/* contact */
+
+#contents .section7 h2 {
+    font-size: 90px; 
+    font-weight: 100; 
+    text-transform: uppercase;
+    font-family: 'Cafe24Decoshadow', 'Noto+Sans+KR';
+}
+
+#contents .section8 .profile h3 {
+    font-family: 'Noto+Sans+KR';
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+
+
+}
+#contents .section8 .profile ul li {
+    font-family: 'Noto+Sans+KR';
+    font-size: 25px;
+    font-weight: 300;
+}
