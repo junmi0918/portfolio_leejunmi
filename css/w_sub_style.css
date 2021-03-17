@@ -1,0 +1,190 @@
+/* works의 서브 페이지 css */
+
+/* invitess 구도잡기*/
+#w_invitees section:nth-child(1) {
+    width: 100%; height: 1000px; background-color: #7ecbfd;
+}
+#w_invitees section:nth-child(2) {
+    width: 30%; height: 1000px; background-color: rgb(53, 53, 53);
+    float: right;
+
+}
+#w_invitees section:nth-child(3) {
+    width: 70%; height: 500px; background-color: rgb(255, 255, 255);
+    float: right;
+}
+#w_invitees section:nth-child(4) {
+    width: 70%; height: 500px; background-color: rgb(255, 255, 255);
+    float: right;
+}
+#w_invitees section:nth-child(5) {
+    /* background-image: url(../img/invitees_img07.png); */
+    width: 100%; background-color: rgb(145,145,145);
+    clear: both;
+}
+#w_invitees section:nth-child(6) {
+    width: 100%; height: 700px; background-color: rgb(255, 255, 255);
+}
+
+#w_invitees section:nth-child(7) {
+    width: 100%; height: 800px; 
+
+} 
+/* 연습 끝 */
+
+/* 전체 */
+
+.w_container {
+    position: relative;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+/* w_sub_mbinvitees 구간 */
+
+#w_sub #w_invitees {
+    width: 100%; margin: 0 auto;
+}
+
+#w_sub #w_invitees .title_1 {
+    position: relative;
+    top: 300px;
+}
+#w_sub #w_invitees .title_1 h1 {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 800;
+    margin-bottom: -30px;
+    transition: all 0.82s ease;
+}
+#w_sub #w_invitees .title_1 h2 {
+    color: #fff;
+    font-size: 90px;
+    font-weight: 700;
+    transition: all 0.82s ease;
+}
+#w_sub #w_invitees .title_1 p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 100px;
+}
+#w_sub #w_invitees .title_1 h2:hover,
+#w_sub #w_invitees .title_1 h1:hover {
+    color: rgb(72, 97, 236);
+}
+
+#w_sub #w_invitees .title_2 .m_row img {
+    width: 90%;
+   margin: 0 5% 0 5%;;
+   transition: all 0.85s ease;
+}
+
+#w_sub #w_invitees .title_3 {
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    clear: both;
+}
+
+#w_sub #w_invitees .title_3 .m_row div {
+    position: relative;
+    width: 33.333%;
+    top: 200px;
+    float: left;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+#w_sub #w_invitees .title_3 .m_row div h1 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#w_sub #w_invitees .title_3 .m_row div p {
+    font-weight: 400;
+    font-size: 18px;
+}
+#w_sub #w_invitees .title_4 {
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    clear: both;
+}
+
+#w_sub #w_invitees .title_4 .m_row div {
+    position: relative;
+    margin-right: 1%;
+    width: 32.333%;
+    top: 100px;
+    float: left;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+#w_sub #w_invitees .title_4 .m_row div:nth-child(2) {
+    background-color: #fff;
+    height: 180px;
+    padding: 3%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+#w_sub #w_invitees .title_4 .m_row div:nth-child(3) {
+    background-color: #000;
+    height: 180px;
+    padding: 3%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+#w_sub #w_invitees .title_4 .m_row div:nth-child(3) h3,
+#w_sub #w_invitees .title_4 .m_row div:nth-child(3) p {
+ color: #fff;
+}
+
+#w_sub #w_invitees .title_4 .m_row div:nth-child(4) {
+    margin-right: none;
+    background-color: #f26979;
+    height: 180px;
+    padding: 3%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+#w_sub #w_invitees .title_4 .m_row div h3 {
+    font-size: 18px;
+}
+#w_sub #w_invitees .title_4 .m_row div p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#w_sub #w_invitees .title_4 .m_row h2 {
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+}
+
+#w_invitees section:nth-child(5) img {
+    width: 100%; height: 100%;
+}
+
+#w_sub #w_invitees .title_5 {
+    position: relative;
+    top: 200px;
+}
+#w_sub #w_invitees .title_5 h1 {
+    color: rgb(72, 97, 236);
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: -30px;
+    transition: all 0.82s ease;
+}
+#w_sub #w_invitees .title_5 p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 120px;
+}
+#w_sub #w_invitees .title_5 h2:hover,
+#w_sub #w_invitees .title_5 h1:hover {
+    color: rgb(0, 0, 0);
+}
