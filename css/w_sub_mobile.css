@@ -1,0 +1,434 @@
+/* sub_media query*/
+/* 화면 너비 0 ~ 1600px */
+@media (max-width: 1600px){
+    #w_sub .m_row {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #w_sub .w_container {
+        width: 100%;
+    }
+    #w_sub #w_invitees section .title_3 .m_row {
+     padding: none;
+     margin: none;
+    }
+    #w_sub #w_invitees section .title_3 .m_row div {
+        width: 30%;
+        top: 200px;
+        /* border: 2px solid red; */
+    }
+    #w_sub #w_invitees .title_2 .m_row img {
+        position: relative;
+        width: 90%;
+        top: 150px;
+    }
+    #w_sub #w_invitees section .title_3 .m_row div h1{
+        font-size: 20px;
+    }
+    #w_sub #w_invitees section .title_3 .m_row div p {
+        font-size: 18px;
+    }
+    #w_sub #w_pfizer section .title_1 h1 {
+        font-size: 70px;
+        margin-bottom: -15px;
+    }
+    #w_sub #w_pfizer section .title_1 h2 {
+        font-size: 62px;
+    }
+    #w_sub #w_pfizer section .title_1 {
+        top: 320px;
+    }
+    #w_sub #w_soodam section .title_1 h1 {
+        font-size: 70px;
+        margin-bottom: -15px;
+    }
+    #w_sub #w_soodam section .title_1 h2 {
+        font-size: 62px;
+    }
+    #w_sub #w_soodam section .title_1 {
+        top: 320px;
+    }
+    #w_sub #w_soodam .title_2 ul.trans {
+        padding: 0 5% 0 20%!important
+      }
+}
+
+/* 화면 너비 0 ~ 1220px */
+@media (max-width: 1220px){
+   #w_sub #w_invitees section:nth-child(2) {
+        width: 100%; height: 1000px;
+        overflow: hidden;
+    }
+    #w_sub #w_invitees section .title_2 .m_row img {
+        width: 40%;
+        margin-left: 30%;
+        top: 50px;
+    }
+    #w_sub #w_invitees section:nth-child(3) {
+        width: 100%;
+
+    }
+    #w_sub #w_invitees section:nth-child(4) {
+        width: 100%; 
+    }
+}
+/* 화면 너비 0 ~ 1024px */
+@media (max-width: 1024px){
+    #w_sub #w_invitees section .title_1 h1 {
+        font-size: 80px;
+        margin-bottom: -10px;
+    }
+    #w_sub #w_invitees section .title_1 h2 {
+        font-size: 66px;
+        font-weight: 700;
+        transition: all 0.82s ease;
+    }
+    #w_sub #w_invitees section .title_1 p {
+        font-size: 18px;      
+        margin-top: 130px;
+    }
+    #w_sub #w_invitees section .title_2 .m_row img {
+        width: 50%;
+        margin-left: 30%;
+        top: 50px;
+    }
+    #w_sub #w_invitees section .title_5 h1 {
+        font-size: 80px;
+    }
+    #w_sub #w_invitees section .title_5 p {
+        font-size: 18px;      
+    }
+    #w_sub #w_pfizer section .title_1 h1 {
+        font-size: 80px;
+        margin-bottom: -10px;
+    }
+    #w_sub #w_pfizer section .title_1 h2 {
+        font-size: 66px;
+        font-weight: 700;
+        transition: all 0.82s ease;
+    }
+    #w_sub #w_pfizer section .title_1 p {
+        font-size: 18px;      
+        margin-top: 130px;
+    }
+    #w_sub #w_pfizer section .title_1 {
+        top: 200px;
+    }
+    #w_sub #w_soodam .title_2 ul.trans {
+        padding: 0 5% 0 10%!important
+    }
+    #w_sub #w_soodam section .title_5 p {
+        font-size: 18px;
+    }
+}
+
+/* 화면 너비 0 ~ 960px */
+@media (max-width: 960px){
+    #w_sub #w_invitees section .title_2 .m_row img {
+        width: 50%;
+        margin-left: 20%;
+        top: 50px;
+    }
+    #w_sub #w_invitees section .title_3 .m_row div {
+        width: 100%;
+        top: 100px;
+        display: block;
+        margin-top: 30px
+        /* border: 2px solid red; */
+    }
+    #w_sub #w_invitees section .title_2 .m_row img {
+        width: 60%;
+        margin-left: 18.5%;
+        top: 10px;
+    }
+    #w_sub #w_pfizer section .title_1 h1 {
+        font-size: 60px;
+    }
+    #w_sub #w_pfizer section .title_1 h2 {
+        font-size: 54px;
+    }
+    #w_sub #w_pfizer section .title_1 p {
+        font-size: 20px;      
+        margin-top: 130px;
+    }
+    #w_sub #w_pfizer section .title_1 {
+        top: 300px;
+    }
+    #w_sub #w_pfizer .w_container .m_row .title_2 {
+        position: relative;
+        top: -50px;
+    }
+    #w_sub #w_pfizer .w_container .m_row .title_2 div:nth-child(1) {
+        width: 100%;
+        height: 130px;
+        float: none; 
+    }
+    #w_sub #w_pfizer .w_container .m_row .title_2 div:nth-child(2) {
+        width: 100%;
+        height: 130px;
+        float: none;
+    }
+    #w_sub #w_pfizer .w_container .m_row .title_2 div:nth-child(3) {
+        width: 100%;
+        height: 130px;
+        float: none;
+    }
+    #w_sub #w_pfizer section .title_2 h1 {
+        font-size: 20px!important
+    }
+    #w_sub #w_pfizer .w_container .m_row .title_2 p {
+        font-size: 18px!important
+    }
+    #w_sub #w_pfizer .w_container .m_row .title_3 {
+        top: 200px;
+        /* border: 1px solid red; */
+    }
+    #w_sub #w_pfizer section:nth-child(4) {
+        width: 100%; height: 600px; background-color: #ffffff;
+    }
+    
+    #w_sub #w_soodam section .title_1 h1 {
+        font-size: 60px;
+    }
+    #w_sub #w_soodam section .title_1 h2 {
+        font-size: 54px;
+    }
+    #w_sub #w_soodam section .title_1 p {
+        font-size: 20px;      
+        margin-top: 130px;
+    }
+    #w_sub #w_soodam .title_2 ul.trans {
+        padding: 0 5% 0 5%!important
+    }
+    #w_sub #w_soodam section:nth-child(5) {
+        height: 500px; background-color: rgb(255, 255, 255);
+    }
+    #w_sub #w_soodam section:nth-child(4) {
+        height: 600px; background-color: rgb(255, 255, 255);
+    }
+    #w_sub #w_soodam section:nth-child(3) {
+        height: 550px; background-color: rgb(255, 255, 255);
+    }
+ 
+    #w_sub #w_soodam .w_container .title_3 .m_row div:nth-child(1) {
+        width: 100%;
+        height: 130px;
+        float: none; 
+    }
+    #w_sub #w_soodam .w_container .title_3 .m_row div:nth-child(2) {
+        width: 100%;
+        height: 130px;
+        float: none;
+    }
+    #w_sub #w_soodam .w_container .title_3 .m_row div:nth-child(3) {
+        width: 100%;
+        height: 130px;
+        float: none;
+    }
+    #w_sub #w_soodam .w_container .title_3 .m_row div h1 {
+        font-size: 20px!important
+    }
+
+}
+
+/* 화면 너비 0 ~ 768px */
+@media (max-width: 768px){
+    #w_sub #w_invitees section .title_1 h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+    #w_sub #w_invitees section .title_1 h2 {
+        font-size: 54px;
+        text-align: center;
+
+    }
+    #w_sub #w_invitees section .title_1 p {
+        font-size: 16px;      
+        margin-top: 130px;
+        text-align: center;
+    }
+    #w_sub #w_invitees section .title_2 .m_row img {
+        width: 70%;
+        margin-left: 14.5%;
+        top: 50px;
+    }
+    #w_sub #w_invitees section .title_5 h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+    #w_sub #w_invitees section .title_5 p {
+        font-size: 16px;      
+        text-align: center;    
+    }
+    #w_sub #w_pfizer section .title_1 h1 {
+        font-size: 58px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #w_sub #w_pfizer section .title_1 h2 {
+        font-size: 48px;
+        text-align: center;
+
+    }
+    #w_sub #w_soodam section .title_1 h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    #w_sub #w_soodam section .title_1 h2 {
+        font-size: 46px;
+        text-align: center;
+    }
+    #w_sub #w_soodam section .title_1 p {
+        font-size: 16px;      
+        margin-top: 130px;
+        text-align: center;
+    }
+    #w_sub #w_soodam section:nth-child(3) {
+        display: none;
+    }
+    #w_sub #w_soodam section .title_5 h2 {
+        font-size: 60px;
+        text-align: center
+
+    }
+    #w_sub #w_soodam section .title_5 p {
+        font-size: 16px;
+        text-align: center
+    }
+  
+}
+
+/* 화면 너비 0 ~ 600px */
+@media (max-width: 600px){
+    #w_sub #w_invitees section:nth-child(2) {
+        height: 800px;
+    }
+    #w_sub #w_invitees section .title_2 .m_row img {
+        width: 70%;
+        margin-left: 14.5%;
+        top: 50px;
+    }
+    #w_sub #w_invitees section:nth-child(6) .title_5 {
+        /* border: 2px solid red; */
+        top: 130px;
+    }
+    #w_sub #w_soodam section .title_1 h1 {
+        font-size: 44px;
+        text-align: center;
+    }
+    #w_sub #w_soodam section .title_1 h2 {
+        font-size: 38px;
+        text-align: center;
+    }
+    #w_sub #w_soodam section .title_1 p {
+        font-size: 16px;      
+        margin-top: 130px;
+        text-align: center;
+    }
+
+}
+
+/* 화면 너비 0 ~ 480px */
+@media (max-width: 480px){
+    #w_sub #w_invitees section .title_1 h1 {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+    #w_sub #w_invitees section .title_1 h2 {
+        font-size: 30px;
+    }
+    #w_sub #w_invitees section .title_1 p {
+        font-size: 12px;      
+        margin-top: 150px;
+    }
+    #w_sub #w_invitees section:nth-child(1) {
+        width: 100%; height: 736px; background-color: #7ecbfd;
+    }
+    #w_sub #w_invitees section .title_1 {
+        top: 200px;
+    }
+    #w_sub #w_invitees section:nth-child(2) {
+        height: 740px; 
+    }
+    #w_sub #w_invitees section .title_2 .m_row img {
+        width: 80%;
+        margin-left: 10.5%;
+        top: 80px;
+    }
+    #w_sub #w_invitees section .title_4 .m_row h2 {
+        margin-bottom: -50px;
+    }
+    #w_sub #w_invitees section .title_4 .m_row div h3 {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    
+    #w_sub #w_invitees section .title_4 .m_row div p {
+        font-size: 12px;
+    }
+    #w_sub #w_invitees section .title_4 {
+        top: 100px;
+    }
+
+    #w_sub #w_pfizer section .title_1 h1 {
+        font-size: 32px;
+        margin-bottom: 5;
+    }
+    #w_sub #w_pfizer section .title_1 h2 {
+        font-size: 24px;
+    }
+    #w_sub #w_pfizer section .title_1 p {
+        font-size: 12px;      
+        margin-top: 150px;
+        text-align: center;
+    }
+    #w_sub #w_pfizer section:nth-child(1) {
+        width: 100%; height: 736px; 
+    }
+    #w_sub #w_pfizer section .title_1 {
+        top: 200px;
+    }
+    #w_sub #w_pfizer .w_container .m_row .title_3 {
+        top: 150px;
+        /* border: 1px solid red; */
+    }
+    #w_sub #w_pfizer section .title_3 div h3 {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    #w_sub #w_pfizer section .title_3 div p {
+        font-size: 12px;
+    }
+    #w_sub #w_soodam section:nth-child(1) {
+        width: 100%; height: 800px; background-color: #fc997a;
+    }
+    #w_sub #w_soodam section .title_1 {
+        top: 200px;
+    }
+    #w_sub #w_soodam section .title_1 h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+    #w_sub #w_soodam section .title_1 h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    #w_sub #w_soodam section .title_1 p {
+        font-size: 12px;      
+    }
+    #w_sub #w_soodam .w_container .title_4 .m_row div h3 {
+        font-size: 14px;
+    }
+    #w_sub #w_soodam .w_container .title_4 .m_row div p {
+        font-size: 14px;
+    }
+
+
+  
+}
+
+/* 화면 너비 0 ~ 320px */
+@media (max-width: 320px){
+
+
+}
